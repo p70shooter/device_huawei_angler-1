@@ -231,7 +231,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	persist.radio.data_con_rprt=true
 
 # configure the HWUI memory limits
-$(call inherit-product, frameworks/native/build/phone-xxhdpi-3072-hwui-memory.mk)
+$(call inherit-product, frameworks/native/build/phone-xxhdpi-2048-hwui-memory.mk)
 
 # Enable low power video mode for 4K encode
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -368,7 +368,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.radio.redir_party_num=0
 
 # setup dalvik vm configs.
-$(call inherit-product, frameworks/native/build/phone-xxhdpi-3072-dalvik-heap.mk)
+$(call inherit-product, frameworks/native/build/phone-xxhdpi-2048-dalvik-heap.mk)
 
 # drmservice prop
 PRODUCT_PROPERTY_OVERRIDES += \
